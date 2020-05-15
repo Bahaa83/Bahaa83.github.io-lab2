@@ -1,0 +1,91 @@
+*,body,html
+{
+    margin:0;
+    padding: 0px;
+font:1em"openSas",sans-serif;
+}
+body{
+    background-color: #eee ;
+}
+* {
+    box-sizing: border-box;
+}
+#container
+{
+    width: 500px;
+    margin-top: 10% ;
+    margin-left: 30%;
+    background-color: #F6F6F6;
+    height:auto;
+    border-radius: 6px;
+    
+}
+#titel
+{
+    width:500px;
+    margin: auto;
+    text-align: center;
+    
+}
+#starwars
+{
+   font-size: 1.5em;
+    
+}
+#starwars 
+{
+    font-weight: bold;
+    width: 150px;
+    height: 100px;  
+}
+#Visa-data
+{
+    width:400px;
+    border: 2px solid gray;
+    margin:auto;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #eee ;
+}
+.hämta-data > *
+{
+    display: inline-block;
+}
+
+
+#btn{
+  width: 140px;
+ margin-left: 50px;
+  height: 54px;
+  background-color: #F44336;
+  color: #FFF;
+  line-height: 54px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hämta-data .LäggTill
+{
+  width: 140px;
+  margin-left: 120px;
+  height: 54px;
+  background-color: #F44336;
+  color: #FFF;
+  line-height: 54px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+    visibility: hidden;
+}
+#favorit-lista
+{
+    width:275px;
+    border: 2px solid gray;
+    height: 300px;
+    margin:auto;
+    overflow: scroll;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    visibility: hidden;
+}
+
